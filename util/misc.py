@@ -245,7 +245,7 @@ class MetricLogger(object):
         print('{} Total time: {} ({:.4f} s / it)'.format(
             header, total_time_str, total_time / len(iterable)))
 
-
+ 
 def get_sha():
     cwd = os.path.dirname(os.path.abspath(__file__))
 
